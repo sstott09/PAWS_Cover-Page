@@ -1,0 +1,94 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+#art-0 {
+  background-image: url("http://jeffreeve.co.uk/images/art/0.svg");
+  z-index: 0; }
+
+#art-1 {
+  background-image: url("http://jeffreeve.co.uk/images/art/1.svg");
+  z-index: 1; }
+
+#art-2 {
+  background-image: url("http://jeffreeve.co.uk/images/art/2.svg");
+  z-index: 2; }
+
+#art-3 {
+  background-image: url("http://jeffreeve.co.uk/images/art/3.svg");
+  z-index: 3; }
+
+#art-4 {
+  background-image: url("http://jeffreeve.co.uk/images/art/4.svg");
+  z-index: 4; }
+
+#art-5 {
+  background-image: url("http://jeffreeve.co.uk/images/art/5.svg");
+  z-index: 5; }
+
+#art-6 {
+  background-image: url("http://jeffreeve.co.uk/images/art/6.svg");
+  z-index: 6; }
+
+#art-7 {
+  background-image: url("http://jeffreeve.co.uk/images/art/7.svg");
+  z-index: 7; }
+
+#art-8 {
+  background-image: url("http://jeffreeve.co.uk/images/art/8.svg");
+  z-index: 8; }
+
+#art-9 {
+  background-image: url("http://jeffreeve.co.uk/images/art/9.svg");
+  z-index: 9; }
+
+#art-10 {
+  background-image: url("http://jeffreeve.co.uk/images/art/10.svg");
+  z-index: 10; }
+
+.art {
+  background-color: #F4EFEB;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1; }
+
+.art--layer {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  position: fixed; }
+
+#art-logo {
+  font-family: 'Indie Flower', cursive;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  height: 100%;
+  z-index: 5;
+ }
+  #art-logo span {
+    position: fixed;
+    z-index: 100;
+    font-size: 80px;
+    margin-bottom: 195px;
+    padding-bottom: 300px;
+  
+ }
+
+.filler {
+  height: 100vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .filler img {
+    max-width: 50px; }
